@@ -1,0 +1,7 @@
+Salary= int (input("Enter your salary"))
+if Salary>=50000:
+    print("Salary:", Salary*10/100)
+elif Salary>30000:
+    print("Salary:",Salary*5/100)
+else:
+    print("Salary:",Salary*2/100)
