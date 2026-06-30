@@ -1,0 +1,7 @@
+User_Name=input("Enter your User Name")
+Password=int(input("Enter your Password"))
+
+if User_Name=="Mohan" and Password==12345:
+    print ("Login Sucessfully")
+else:
+    print("invalid Credentials")
