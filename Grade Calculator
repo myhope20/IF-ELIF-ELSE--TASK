@@ -1,0 +1,10 @@
+Marks=int(input("Enter your Marks"))
+print("----Your Grade Details----")
+if Marks>=90 and Marks<=100:
+    print ("Your Grade is A")
+elif Marks>=75 and Marks<=89:
+    print("Your Grade is B")
+elif Marks>=50 and Marks<=74:
+    print("Your Grade is C")
+else:
+    print ("Sorry You Fail")
