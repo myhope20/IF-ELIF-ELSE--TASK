@@ -1,0 +1,12 @@
+Purchase=int(input("Enter Your Purchase Amount"))
+print("Your Purchase Amount: ", Purchase)
+if Purchase>=5000:
+    Discount=Purchase*20/100
+    print ("Discount is:", Discount)
+elif Purchase>=2000:
+    Discount=Purchase*10/100
+    print("Discount is:", Discount)
+else:
+    print("No Discount")
+
+print("Final Amount is",Purchase-Discount)
